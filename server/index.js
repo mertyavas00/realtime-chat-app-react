@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://realtime-chat-app-react.onrender.com",
+    origin: "https://realtime-chat-app-react-frontend.onrender.com",
     methods: ["GET", "POST"],
   },
 });
