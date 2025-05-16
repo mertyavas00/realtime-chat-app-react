@@ -1,0 +1,14 @@
+# root-level node_modules
+node_modules/
+.env
+
+# build folders
+client/build/
+server/build/
+
+# log files
+*.log
+
+# OS/system files
+.DS_Store
+Thumbs.db
